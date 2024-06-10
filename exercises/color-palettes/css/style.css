@@ -1,10 +1,29 @@
-#cp-h1 {
+#spg-h1-styling {
     text-align: center;
     font-family: Arial;
 }
 
-#cp1-cn1 {
-    text-align: center;
-    font-family: Arial;
+
+#spg1-div-styling {
     background-color: #ef476f;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px; 
+}
+
+#spg2-div-styling {
+    background-color: #ffd166;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px;
+}
+
+#spg3-div-styling {
+    background-color: #06d6a0;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px;
 }
