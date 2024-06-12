@@ -1,13 +1,13 @@
 #spg-h2-styling {
     text-align: center;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 #spg1-div-styling {
     background-color: #ef476f;
     color: whitesmoke;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px; 
 }
@@ -15,7 +15,7 @@
 #spg2-div-styling {
     background-color: #ffd166;
     color: whitesmoke;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
@@ -23,28 +23,28 @@
 #spg3-div-styling {
     background-color: #06d6a0;
     color: whitesmoke;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 
 #sat-h2-styling {
     text-align: center;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #sat1-div-styling {
-    background-color:#fb5607;
+    background-color: #fb5607;
     color: whitesmoke;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 24px; 
 }
 
 #sat2-div-styling {
-    background-color:#ff006e;
+    background-color: #ff006e;
     color: whitesmoke;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 24px; 
 }
@@ -52,36 +52,36 @@
 #sat3-div-styling {
     background-color: #8338ec;
     color: whitesmoke;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 24px; 
 }
 
-#ch-h2-styling{
-    font-family: Georgia;
+#ch-h2-styling {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-#ch1-div-styling{
+#ch1-div-styling {
     background-color: #fcf6bd;
     color: blueviolet;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
 
-#ch2-div-styling{
+#ch2-div-styling {
     background-color: #a9def9;
     color: blueviolet;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
 
-#ch3-div-styling{
+#ch3-div-styling {
     background-color: #e4c1f9;
     color: blueviolet;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
