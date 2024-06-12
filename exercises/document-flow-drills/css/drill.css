@@ -19,9 +19,23 @@
 }
 
 /* Drill 5 - Write your code solution below */
-.d5-div {
+#d5-div1 {
     display: inline-block;
-    width: 200px;
+    width: 250px;
+}
+
+#d5-div2 {
+    display: inline-block;
+    width: 225px;
 }
 
 /* Drill 6 - Write your code solution below */
+#d6-div2 {
+    display: inline-block;
+    width: 48%;
+}
+
+#d6-div3 {
+    display: inline-block;
+    width: 48%;
+}
