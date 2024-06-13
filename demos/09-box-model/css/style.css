@@ -1,0 +1,14 @@
+div {
+    border: 10px dashed red;
+    margin: 24px 0px;
+    padding: 24px 56px;
+    background-color: lightcoral;
+}
+
+p {
+    border: 5px outset #005577; 
+    margin: 25px 4px;
+    padding: 10px 23px;
+    background-color: lightseagreen;
+    border-radius: 43px 13px;
+}
