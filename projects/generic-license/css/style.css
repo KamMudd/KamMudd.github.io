@@ -1,0 +1,92 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+div#license {
+    width: 700px;
+    border: solid 3px black;
+    border-radius: 3%;
+    padding: 24px;
+}
+
+div#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+div#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+div#id-and-expiration div {
+    display: inline-block;
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+div#id-and-expiration div span {
+    color: red;
+    font-weight: bold;
+}
+
+div#address {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+div#small-pic-container,
+div#data-fields {
+    display: inline-block;
+}
+
+div#small-pic-container img {
+    width: 85px;
+}
+
+div#data-left,
+div#data-right {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 10pt;
+}
+
+div#data-left span,
+div#data-right span {
+    font-weight: bold;
+    color: red;
+}
+
+div#signature {
+    text-align: center;
+}
+
+div#right-side img{
+    width: 100%;
+}
+
+div#donor,
+div#real-id {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 40pt;
+    color: rgb(32, 32, 88);
+    margin: 0px;
+}
+
+h4 {
+    background-color: rgb(32, 32, 88);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
