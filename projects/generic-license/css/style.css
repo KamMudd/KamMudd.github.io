@@ -74,6 +74,7 @@ div#right-side img{
 div#donor,
 div#real-id {
     display: inline-block;
+    color: red;
 }
 
 h1 {
