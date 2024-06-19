@@ -20,7 +20,9 @@ body {
 }
 
 #sidebar-content h2 {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px outset rgba(149, 4, 185, 0.719);
+    background-color: rgb(192, 80, 183);
+    color: white;
     padding-bottom: 8px;
 }
 
@@ -53,4 +55,12 @@ body {
     border-bottom: 2px outset rgba(149, 4, 185, 0.719);
     background-color: rgb(192, 80, 183);
     color: white;
+}
+
+#sidebar-content ul li.early-life,
+#sidebar-content ul li.studies,
+#sidebar-content ul li.p-life,
+#sidebar-content ul li.r1, 
+#sidebar-content ul li.r2 {
+    padding-left: 20px;
 }
