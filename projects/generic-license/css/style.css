@@ -12,6 +12,7 @@ div#license {
     border: solid 3px black;
     border-radius: 3%;
     padding: 24px;
+    background: linear-gradient(to right, #ceb185, rgba(231, 123, 50, 0.959));
 }
 
 div#left-side {
@@ -27,7 +28,7 @@ div#right-side {
 div#id-and-expiration div {
     display: inline-block;
     color: blue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
 }
 
@@ -38,7 +39,7 @@ div#id-and-expiration div span {
 
 div#address {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 div#small-pic-container,
 div#data-fields {
@@ -67,8 +68,9 @@ div#signature {
     text-align: center;
 }
 
-div#right-side img{
+div#right-side img {
     width: 100%;
+    padding-bottom: 8px;
 }
 
 div#donor,
@@ -89,7 +91,7 @@ h4 {
     font-size: 20px;
     padding: 5px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
