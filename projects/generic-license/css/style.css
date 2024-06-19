@@ -12,7 +12,7 @@ div#license {
     border: solid 3px black;
     border-radius: 3%;
     padding: 24px;
-    background: linear-gradient(to right, #ceb185, rgba(231, 123, 50, 0.959));
+    background: linear-gradient(to bottom right, #f1d790, rgba(231, 123, 50, 0.959));
 }
 
 div#left-side {
