@@ -17,31 +17,37 @@ body {
 #sidebar-content {
     grid-area: sidebar;
     padding: 18px;
+    background-color: rgb(187, 179, 144);
+    border: 2px solid none;
+    border-radius: 50px 0px;
 }
 
 #sidebar-content h2 {
-    background-color: darkcyan;
-    color: white;
+    background-color: rgb(230, 167, 33);
+    color: rgb(102, 63, 40);
     padding: 12px;
     font-size: 18px;
     margin: 0px;
+    border: 2px solid green;
+    border-radius: 50px;
 }
 
 #sidebar-content ul {
     background-color: #efefef;
-    border: 1px solid darkcyan;
+    border: 1px solid rgb(230, 167, 33);
+    border-radius: 50px 70px 0px 50px;
     margin: 0px 0px 36px;
     padding: 0px 12px;
     list-style-type: none;
 }
 
 #sidebar-content a {
-    color: darkcyan;
+    color: rgb(102, 63, 40);
     text-decoration: none;
 }
 
 #sidebar-content li {
-    border-bottom: 1px solid darkcyan;
+    border-bottom: 1px solid rgb(184, 175, 51);
     padding: 8px 0px;
 }
 
@@ -52,6 +58,7 @@ body {
 #main-content {
     grid-area: content;
     padding: 0px 36px;
+    background-color: rgb(228, 221, 180)
 }
 
 img {
