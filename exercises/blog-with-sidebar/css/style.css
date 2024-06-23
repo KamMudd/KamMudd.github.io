@@ -19,7 +19,7 @@ body {
     padding: 18px;
     background-color: rgb(187, 179, 144);
     border: 2px solid none;
-    border-radius: 50px 0px;
+    border-radius: 0px 25px 25px 0px;
 }
 
 #sidebar-content h2 {
@@ -27,9 +27,8 @@ body {
     color: rgb(102, 63, 40);
     padding: 12px;
     font-size: 18px;
-    margin: 0px;
-    border: 2px solid green;
-    border-radius: 50px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 #sidebar-content ul {
@@ -49,6 +48,7 @@ body {
 #sidebar-content li {
     border-bottom: 1px solid rgb(184, 175, 51);
     padding: 8px 0px;
+    padding: 15px;
 }
 
 #sidebar-content li:last-child {
@@ -58,7 +58,7 @@ body {
 #main-content {
     grid-area: content;
     padding: 0px 36px;
-    background-color: rgb(228, 221, 180)
+    background-color: rgb(228, 221, 180);
 }
 
 img {
