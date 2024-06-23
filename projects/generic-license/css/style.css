@@ -25,11 +25,15 @@ div#right-side {
     width: 34%;
 }
 
+div#id-and-expiration {
+    border: 2px solid blue;
+}
 div#id-and-expiration div {
     display: inline-block;
     color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
+    margin: 0px 8px;
 }
 
 div#id-and-expiration div span {
@@ -40,6 +44,7 @@ div#id-and-expiration div span {
 div#address {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 10px 10px;
 }
 div#small-pic-container,
 div#data-fields {
@@ -48,6 +53,7 @@ div#data-fields {
 
 div#small-pic-container img {
     width: 85px;
+    opacity: 50%;
 }
 
 div#data-left,
@@ -73,10 +79,28 @@ div#right-side img {
     padding-bottom: 8px;
 }
 
+div#donor-and-real-id {
+    text-align: center;
+    border: 2px solid blue;
+}
+
 div#donor,
 div#real-id {
     display: inline-block;
+}
+
+div#donor {
     color: red;
+    font-weight: bold;
+}
+
+div#real-id {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(243, 201, 12);
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0px 12px;
 }
 
 h1 {
