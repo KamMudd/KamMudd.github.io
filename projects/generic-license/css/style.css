@@ -28,6 +28,7 @@ div#right-side {
 div#id-and-expiration {
     border: 2px solid blue;
 }
+
 div#id-and-expiration div {
     display: inline-block;
     color: blue;
@@ -46,9 +47,14 @@ div#address {
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px 10px 10px;
 }
+
 div#small-pic-container,
 div#data-fields {
     display: inline-block;
+}
+
+div#data-fields {
+    margin: 0px 10px 0px;
 }
 
 div#small-pic-container img {
@@ -62,6 +68,7 @@ div#data-right {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
     font-size: 10pt;
+    padding-bottom: 15px;
 }
 
 div#data-left span,
@@ -76,12 +83,11 @@ div#signature {
 
 div#right-side img {
     width: 100%;
-    padding-bottom: 8px;
+    padding-bottom: 35px;
 }
 
 div#donor-and-real-id {
     text-align: center;
-    border: 2px solid blue;
 }
 
 div#donor,
@@ -107,6 +113,7 @@ h1 {
     font-size: 40pt;
     color: rgb(32, 32, 88);
     margin: 0px;
+    padding-top: 14px;
 }
 
 h4 {
