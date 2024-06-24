@@ -12,7 +12,8 @@ body {
     grid-template-columns: 250px 1fr;
     grid-template-areas: 
         "header header"
-        "sidebar main";
+        "sidebar main"
+        "sidebar feed";
 }
 
 #header {
@@ -99,4 +100,8 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+
+#feed {
+    grid-area: feed;
 }
