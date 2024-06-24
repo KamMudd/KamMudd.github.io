@@ -25,10 +25,6 @@ div#right-side {
     width: 34%;
 }
 
-div#id-and-expiration {
-    border: 2px solid blue;
-}
-
 div#id-and-expiration div {
     display: inline-block;
     color: blue;
