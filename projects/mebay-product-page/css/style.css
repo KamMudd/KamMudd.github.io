@@ -9,35 +9,34 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 25px 100px 1fr 1fr 25px;
+    grid-template-columns: 150px 1fr 1fr;
     grid-template-areas: 
-        " header header header header header"
-        ". viewer content sidebar .";
-    margin: 36px 0px;
+        "header header header"
+        "viewer content sidebar";
+    
 }
 
 #header {
     grid-area: header;
-    padding: 0px 36px;
 }
 
 #header a {
     text-decoration: none;
     color: fuchsia;
     background-color: yellow;
-    padding: 20px 200px
+    padding: 20px 50%;
 }
 
 #viewer-content {
     grid-area: viewer;
-    border: 3px solid rgb(167, 143, 143);
-    background-color: burlywood;
-    margin: 0px;
+    margin: 10px 0px;
 }
 
 #viewer-content img {
     width: 100%;
     border-radius: 25px;
+    border: 3px solid rgb(167, 143, 143);
+    padding: 5px;
 }
 
 #sidebar-content {
@@ -49,13 +48,11 @@ body {
     color: black;
     border-bottom: 1px solid gray;
     padding: 12px;
-    font-size: 18px;
     margin: 0px;
 }
 
 #sidebar-content #seller-info {
     color: black;
-    border-bottom: 1px solid gray;
     padding: 12px;
     font-size: 18px;
     margin: 0px;
@@ -63,6 +60,7 @@ body {
 
 #sidebar-content #price {
     color: black;
+    border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 12px;
     font-size: 18px;
@@ -76,12 +74,19 @@ body {
     margin: 0px;
 }
 
-#sidebar-content a {
-    color: black;
+#seller-info {
+    display: flex;
+    flex-direction: row;
 }
 
-#sidebar-content #seller-info {
-    display: inline-block;
+#seller-info-1,
+#seller-info-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sidebar-content #seller-info a {
+    color: black;
 }
 
 #sidebar-content #buying span {
@@ -110,7 +115,10 @@ body {
 
 #main-content {
     grid-area: content;
-    padding: 0px 36px;
+    padding: 0px 25px;
+    margin: 10px;
+    background-color: rgba(209, 206, 198, 0.938);
+    border-radius: 25px
 }
 
 #main-content img {
