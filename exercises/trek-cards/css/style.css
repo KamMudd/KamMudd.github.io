@@ -11,10 +11,10 @@
 .card-style-1 {
     width: 90vw;
     max-width: 350px;
-    margin: 20px auto;
+    margin: 17px auto;
     display:flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 33px;
     justify-content: center;
     width: 350px;
     box-shadow: -4px 4px 25px black;
