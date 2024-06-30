@@ -28,16 +28,51 @@
     padding-left: 60px;
 }
 
-#pokemon-card-1 {
-    background-color: rgb(75, 236, 83);
-}
-
 .card-style-3 img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border: 4px solid goldenrod;
 }
+
+.card-style-3 .details {
+    background-color: goldenrod;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 5px;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.card-style-3 .bold,
+.card-style-3 .power {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-style-3 .data {
+    border: 2px solid goldenrod;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pokemon-card-1 {
+    background-color: rgb(75, 236, 83);
+}
+
+/* .card-style-3 #pokemon-card-1 .details {
+    margin-top: 20px;
+} */
 
 #pokemon-card-2 {
     background-color: rgb(47, 151, 20);
