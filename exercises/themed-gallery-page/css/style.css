@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#themed-gallery-layout {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: yellow;
+    padding-top: 20vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    padding: 15px;
+    background-color: rgb(230, 41, 41);
+    opacity: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.horiz-masonry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.horiz-masonry img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    
+    border: 5px groove rgb(216, 20, 223);
+}
