@@ -41,6 +41,7 @@
 .card-style-2 .profile-pic-container img {
     width: 57%;
     border-radius: 50%;
+    object-fit: cover
 }
 
 .card-style-2 h2 {
