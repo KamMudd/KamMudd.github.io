@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Berkshire+Swash&family=Libre+Barcode+39&family=Rye&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
 * {
     box-sizing: border-box;
 }
@@ -5,7 +9,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: black;
 }
+
+/* Hero / Homepage CSS */
 
 #hero-2 {
     background-image: url("../images/insta-1.jpg");
@@ -31,10 +38,11 @@ body {
 }
 
 #hero-2 h2 {
-    font-size: 8vw;
+    font-size: 200px;
     margin-bottom: 5vh;
     margin-right: 5vw;
     color: rgb(64, 235, 64);
+    font-family: "Urbanist", sans-serif;
 }
 
 #hero-2 h4 {
@@ -46,12 +54,14 @@ body {
 #hero-2 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: #333333;
+    background-color: rgb(51, 197, 51);
     color: white;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
 }
+
+/* Cards on Homepage CSS */
 
 #card-section {
     background-color: #bb2ae7;
@@ -66,10 +76,16 @@ body {
 
 .card {
     flex: 1;
-    border: 3px solid #bfefff;
+    border: 3px inset #bfefff;
     padding: 36px;
     text-align: center;
     margin: 36px;
+    background-color: black;
+}
+
+.card #color {
+    background-color: #350336;
+    padding: 5px;
 }
 
 .card h3 {
@@ -82,6 +98,15 @@ body {
     text-decoration: none;
 }
 
+.card img {
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+/* Gallery Page CSS */
+
 #grid-layout {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -92,46 +117,66 @@ body {
 
 #header {
     grid-area: header;
-    padding: 0px 36px;
+    padding: 0px 36px; 
+    color: rgb(0, 230, 57);
+    background-color:rgb(232, 53, 248);
+    border-radius: 48px 
 }
+
+/* #header  {
+    background-color:rgb(232, 53, 248);
+    border-radius: 48px 
+} */
 
 #sidebar {
     grid-area: sidebar;
     padding: 0px 24px;
+    color: rgb(132, 241, 132);
 }
 
 #layout {
     grid-area: main;
     display: flex; 
     flex-wrap: wrap; 
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    color: rgb(232, 53, 248);
+}
+
+#layout #footer {
+    margin-top: 50px;
+    padding-left: 75px;
 }
 
 #sidebar ul {
     padding: 12px 0px;
     margin: 0px;
     list-style-type: none;
-    border-bottom: 1px solid #AAAAAA
+    border-bottom: 1px solid #661111;
 }
 
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+#sidebar ul li {
+    color: rgb(232, 53, 248);
 }
+
+/* #layout p {
+    display: flex;
+    flex-direction: column;
+} */
 
 /* 
     Gallery setup 
 */
-.cropped-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 200px;
-    padding: 24px;
-    border: 10px solid #333333;
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: 10px solid rgb(64, 235, 64);
 }
 
-.cropped-grid-gallery img {
-    width: 100%;
-    height: 100%;
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
     object-fit: cover;
 }
