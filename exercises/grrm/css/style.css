@@ -460,10 +460,12 @@ body {
 
     #nav {
         flex-wrap: wrap;
+        /* gap: 25px; */
     }
 
     #nav a {
-        flex: 50px;
+        flex: 200px;
+        border-bottom: 2px solid gray;
     }
 }
 
@@ -496,15 +498,18 @@ body {
     }
 
     #header h1 {
-        font-size: 43px;
+        font-size: 39px;
     }
 
     #nav {
         flex-wrap: wrap;
+        /* border-bottom: 2px solid rgb(122, 13, 13); */
+        /* gap: 30px; */
     }
 
     #nav a {
         flex: 40px;
+        border-bottom: 2px solid gray;
     }
 
     #banner-container,
