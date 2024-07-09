@@ -30,7 +30,6 @@ body {
     height: 100%;
     padding-right: 80px;
     border-bottom: 2px solid rgb(64, 235, 64);
-    
 }
 
 #hero-2 h5 {
@@ -76,16 +75,11 @@ body {
 
 .card {
     flex: 1;
-    border: 3px inset #bfefff;
+    border: 3px inset #350336;
     padding: 36px;
     text-align: center;
     margin: 36px;
     background-color: black;
-}
-
-.card #color {
-    background-color: #350336;
-    padding: 5px;
 }
 
 .card h3 {
@@ -96,6 +90,20 @@ body {
 
 .card a {
     text-decoration: none;
+    background-color: #b814bb;
+    display: inline-block;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    border: 3px groove rgb(231, 128, 240);
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: rgb(231, 128, 240);
 }
 
 .card img {
@@ -120,7 +128,7 @@ body {
     padding: 0px 36px; 
     color: rgb(0, 230, 57);
     background-color:rgb(232, 53, 248);
-    border-radius: 48px 
+    border-radius: 48px;
 }
 
 /* #header  {
