@@ -41,7 +41,7 @@ body {
 
 /* AngelEars Navbar Setup */
 #ae-navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to top right, rgb(255, 179, 14), #e4750e);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,13 +49,13 @@ body {
 
 #ae-navbar a {
     text-decoration: none;
-    color: white;
+    color: rgb(210, 224, 210);
     padding: 24px;
 }
 
 #ae-navbar .cta-buttom {
-    background-color: white;
-    color: green;
+    background-color: rgb(228, 171, 16);
+    color: rgb(210, 224, 210);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -77,8 +77,18 @@ body {
     margin: 0px auto;
 }
 
+.content-column p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#ts-navbar-top {
+    background-color: orange;
+    padding: .5px 0px;
+}
+
 #ts-navbar-middle {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, rgb(238, 144, 4), #e69e40);
 }
 
 #ts-navbar-middle .content-column {
@@ -89,7 +99,7 @@ body {
 
 #ts-navbar-middle a {
     text-decoration: none;
-    color: white;
+    color: rgb(236, 215, 25);
     padding: 24px 0px;
 }
 
@@ -98,8 +108,8 @@ body {
 }
 
 #ts-navbar-middle .cta-buttom {
-    background-color: white;
-    color: green;
+    background-color: rgb(236, 215, 25);
+    color: rgb(238, 144, 4);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -109,7 +119,11 @@ body {
 }
 
 #ts-navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background: linear-gradient(
+        to bottom, 
+        rgb(216, 117, 36), 
+        rgb(212, 165, 8)
+    );
 }
 
 #ts-navbar-bottom .content-column {
@@ -119,6 +133,6 @@ body {
 
 #ts-navbar-bottom a {
     text-decoration: none;
-    color: white;
+    color: rgb(236, 215, 25);
     padding: 12px 0px;
 }
