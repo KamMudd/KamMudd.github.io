@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#title h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Board Game Setup and Config */
+
+#bgame-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.bgame-card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bgame-card-content img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bgame-card1:hover {
+    background-color: rgb(224, 207, 132);
+    box-shadow: 4px 4px 4px #09107ece;
+    transform: translateY(-4px);
+}
+
+#bgame-card2:hover {
+    background-color: rgb(224, 207, 132);
+    box-shadow: 4px 4px 4px #09107ece;
+    transform: translateY(-4px);
+}
+
+#bgame-card3:hover {
+    background-color: rgb(224, 207, 132);
+    box-shadow: 4px 4px 4px #09107ece;
+    transform: translateY(-4px);
+}
+
+#bgame-card4:hover {
+    background-color: rgb(224, 207, 132);
+    box-shadow: 4px 4px 4px #09107ece;
+    transform: translateY(-4px);
+}
+
+#bgame-card1,
+#bgame-card2,
+#bgame-card3
+#bgame-card4 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+/* Kitchen Appliance Setup and Config */
+#kit-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.kit-card {
+    background-color: rgb(212, 212, 212);
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.kit-card-content ul {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.kit-card a {
+    background-color: rgb(240, 210, 172);
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+/* Pokemon Setup and Config */
+#pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.p-card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color:rgb(40, 151, 216)
+}
+
+.p-card-content img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.p-card a {
+    background-color: rgb(220, 235, 15);
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid rgb(6, 82, 182);
+    padding: 12px;
+    margin-top: 36px;
+}
