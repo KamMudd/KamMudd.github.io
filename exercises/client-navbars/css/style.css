@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Alumni+Sans+Collegiate+One:ital@0;1&family=Bahiana&display=swap');
+</style>
+
 * {
     box-sizing: border-box;
 }
@@ -37,6 +41,8 @@ body {
     border-radius: 50px 35px;
     background-color: #77560d;
     padding: 0px 15px;
+    font-family: "Bahiana", sans-serif;
+    font-weight: 850;
 }
 
 /* AngelEars Navbar Setup */
@@ -51,6 +57,11 @@ body {
     text-decoration: none;
     color: rgb(210, 224, 210);
     padding: 24px;
+}
+
+#ae-navbar h1 {
+    font-family: "Alumni Sans Collegiate One", sans-serif;
+    font-weight: 400;
 }
 
 #ae-navbar .cta-buttom {
@@ -89,6 +100,11 @@ body {
 
 #ts-navbar-middle {
     background: linear-gradient(to bottom, rgb(238, 144, 4), #e69e40);
+}
+
+#ts-navbar-middle h1 {
+    font-family: "Akronim", system-ui;
+    font-weight: 400;
 }
 
 #ts-navbar-middle .content-column {
