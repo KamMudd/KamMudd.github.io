@@ -116,7 +116,7 @@ body {
     margin: 5vh 5vw 10vh 0px;
 }
 
-#single-column-layout {
+.single-column-layout {
     width: 90vw;
     max-width: 1000px;
     margin: 48px auto;
@@ -124,7 +124,7 @@ body {
     align-items: center; */
 }
 
-/* #single-column-layout #card {
+/* .single-column-layout #card {
     display: flex;
     align-items: center;
 } */
