@@ -168,7 +168,7 @@ body {
     padding: 10px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+@media screen and (max-width: 1000px) and (min-width: 481px) {
     /*
         We can either delete this CSS rule, or just
         comment it out, in case we want to use it again
