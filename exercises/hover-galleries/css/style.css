@@ -61,7 +61,7 @@ body {
 
 #bgame-card1,
 #bgame-card2,
-#bgame-card3
+#bgame-card3,
 #bgame-card4 {
     transition:
         background-color 0.5s,
@@ -100,6 +100,21 @@ body {
     border: 3px solid black;
     padding: 12px;
     margin-top: 36px;
+}
+
+#kit-card1 ul {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+#kit-card1:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
 }
 
 /* Pokemon Setup and Config */
