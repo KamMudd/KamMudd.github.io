@@ -105,16 +105,65 @@ body {
 #kit-card1 ul {
     opacity: 0;
     visibility: hidden;
-    transform: translateX(-10);
+    transform: translateX(0);
     transition:
         opacity 0.5s,
         visibility 0.5s,
         transform 0.5s;
 }
+
 #kit-card1:hover ul {
     opacity: 1;
     visibility: visible;
-    transform: translateX(0px);
+    transform: translateX(-10px);
+}
+
+#kit-card2 ul {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(0);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#kit-card2:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-10px);
+}
+
+#kit-card3 ul {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(0);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#kit-card4 ul {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(0);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#kit-card3:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-10px);
+}
+
+#kit-card4:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-10px);
 }
 
 /* Pokemon Setup and Config */
