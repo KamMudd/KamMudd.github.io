@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    /* background-image: url("../images/dog-bg3.jpg"); */
+    background: url("../images/dog-bg3.jpg");
 }
 
 /*
@@ -142,8 +142,8 @@ body {
 
 .content-container {
     flex: 1;
-    border-left: 3px solid blueviolet;
     padding: 70px 40px;
+    background-color: rgba(53, 53, 107, 0.774);
 }
 
 .content-container h2 {
@@ -156,10 +156,14 @@ body {
     display: block;
     text-decoration: none;
     background-color: rgb(196, 192, 255);
-    border: 2px solid blueviolet;
     padding: 10px;
     text-align: center;
     font-weight: bold;
+}
+
+.content-container p {
+    color:rgb(196, 192, 255);
+    font-size: 15px;
 }
 
 @media screen and (max-width: 890px) and (min-width: 681px) {
@@ -185,6 +189,9 @@ body {
     /* body {
         background-color: firebrick;
     } */
+    .hero {
+        width: 40vw;
+    }
 
     #navbar {
         /* flex-wrap: wrap; */
@@ -213,7 +220,6 @@ body {
     }
 
     .content-container {
-        border-left: none;
         text-align: center;
     }
 
