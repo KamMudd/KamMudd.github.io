@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    /* background-image: url("../images/dog-bg3.jpg"); */
 }
 
 /*
@@ -59,10 +60,6 @@ body {
         opacity 0.25s,
         visibility 0.25s;
     z-index: 10;
-}
-
-.dropdown-container:last-child .dropdown-menu {
-    right: 0px;
 }
 
 .dropdown-container:hover .dropdown-menu {
@@ -120,14 +117,7 @@ body {
     width: 90vw;
     max-width: 1000px;
     margin: 48px auto;
-    /* display: flex;
-    align-items: center; */
 }
-
-/* .single-column-layout #card {
-    display: flex;
-    align-items: center;
-} */
 
 .intro {
     display: flex;
@@ -137,7 +127,9 @@ body {
 
 .image-container {
     background-color: rgb(196, 192, 255);
-    padding: 50px;
+    padding: 40px;
+    flex: 1;
+    height: 500px;
 }
 
 .image-container img {
@@ -148,18 +140,10 @@ body {
     
 }
 
-.image-container {
-    flex: 1;
-}
-
 .content-container {
     flex: 1;
     border-left: 3px solid blueviolet;
     padding: 70px 40px;
-}
-
-.image-container {
-    height: 400px;
 }
 
 .content-container h2 {
@@ -171,23 +155,19 @@ body {
 .content-container a {
     display: block;
     text-decoration: none;
-    border: 2px solid pink;
+    background-color: rgb(196, 192, 255);
+    border: 2px solid blueviolet;
     padding: 10px;
     text-align: center;
     font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 801px) {
-    /*
-        We can either delete this CSS rule, or just
-        comment it out, in case we want to use it again
-        for debugging this page in the future.
-    */
-    body {
+@media screen and (max-width: 890px) and (min-width: 681px) {
+    /* body {
         background-color: skyblue;
-    }
+    } */
 
-    .content-container h1 {
+    .content-container h2 {
         font-size: 32px;
     }
 
@@ -196,20 +176,15 @@ body {
     }
 
     .image-container {
+        padding: 20px;
         height: 300px;
     }
-
 }
 
-@media screen and (max-width: 801px) {
-    /*
-        Same for this CSS rule as in the 
-        tablet breakpoint.  And with that,
-        we're finally done with the demo!
-    */
-    body {
+@media screen and (max-width: 680px) {
+    /* body {
         background-color: firebrick;
-    }
+    } */
 
     #navbar {
         /* flex-wrap: wrap; */
@@ -217,21 +192,33 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    #navbar a {
+        padding: 24px 90px;
+    }
+
+    #navbar #logo {
+        margin: 0px 40px;
+    }
+    
     .intro {
         flex-direction: column;
-        gap: 24px;
+        gap: 5px;
+    }
+
+    .image-container {
+        height: 400px;
+        padding: 30px;
+        flex: none;
     }
 
     .content-container {
         border-left: none;
+        text-align: center;
     }
 
-    .content-container h1 {
+    .content-container h2 {
         margin: 0px;
         font-size: 32px
-    }
-
-    .content-container {
-        text-align: center;
     }
 }
