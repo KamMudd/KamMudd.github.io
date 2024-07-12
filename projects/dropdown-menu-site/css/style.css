@@ -148,9 +148,14 @@ body {
     
 }
 
-.image-container,
+.image-container {
+    flex: 1;
+}
+
 .content-container {
     flex: 1;
+    border-left: 3px solid blueviolet;
+    padding: 70px 40px;
 }
 
 .image-container {
@@ -160,12 +165,16 @@ body {
 .content-container h2 {
     font-size: 48px;
     color: #ffb700;
+    margin-bottom: 10px;
 }
 
 .content-container a {
+    display: block;
     text-decoration: none;
     border: 2px solid pink;
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {
