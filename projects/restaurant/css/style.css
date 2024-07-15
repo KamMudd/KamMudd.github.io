@@ -1,0 +1,13 @@
+@import url("https://use.typekit.net/bps3iis.css");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: Aptly;
+}
