@@ -9,6 +9,56 @@ body {
     font-family: sans-serif;
 }
 
+/*
+    Navbar setup and configuration
+*/
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(
+        to bottom,
+        #601215,
+        #ED1C24,
+        #8F1A21
+    ); 
+}
+
+#navbar-top p {
+    font-size: 18pt;
+    font-family: Aptly;
+    color: #E7ECD4;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}  
+
+#navbar-bottom {
+    background-color: #E7ECD4;
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: #601215;
+    font-family: Caladea;
+    font-size: 20pt;
+    padding-right: 5px;
+}
+
+#navbar-bottom #logo img {
+    width: 250px;
+    padding-top: 7px;
+}
+
+/* Hero setup and configuration */
 #layout #hero {
     background: url(../images/spices.jpg);
     height: 100vh;
@@ -25,5 +75,8 @@ body {
 
 #hero h2,
 #hero h3 {
-    color: #8F1A21;
+    color: #E7ECD4;
+    font-family: Aptly;
+    font-weight: bold;
+    font-size: 24pt;
 }
