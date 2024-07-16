@@ -13,7 +13,7 @@ body {
     Navbar setup and configuration
 */
 .content-column {
-    width: 800px;
+    max-width: 800px;
     margin: 0px auto;
 }
 
@@ -97,6 +97,8 @@ body {
     color:#E7ECD4;
     background-color: #8F1A21;
     padding: 20px;
+    margin-top: 5px;
+    margin-right: 35px;
     border-radius: 25px;
     transition: 
         background-color 0.25s;
@@ -115,3 +117,8 @@ body {
     font-weight: bold;
     padding: 5px 0px;
 }
+
+/* #menu-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
