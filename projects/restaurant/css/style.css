@@ -237,6 +237,23 @@ body {
 }
 
 @media screen and (max-width: 682px) {
+    #navbar-bottom .content-column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-content #spicy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #spicy img {
+        height: 45vh;
+    }
+
+    #spicy-content {
+        max-width: 600px;
+    }
     #menu-content #dishes {
         flex-wrap: wrap;
     }
