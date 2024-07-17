@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton+SC&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lobster&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column-layout {
+    width: 1000px;
+    margin: 25px auto;
+    background-image:url(../images/fball-field-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#single-column-layout #poster {
+    background-color:rgba(52, 68, 15, 0.555);
+    text-align: center;
+}
+
+#party-name h4 {
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#party-name h1 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 75px;
+    color: rgb(250, 250, 250);
+}
+
+#party-name h3 {
+    font-family: "Inria Serif", serif;
+    font-size: 40px;
+    color: white;
+}
+
+#team-info {
+    display: flex;
+    justify-content: center;
+}
+
+#team-info .team-content img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#team-info .team-content h3 {
+    font-family: "Inria Serif", serif;
+    font-size: 40px;
+    color: white;
+}
+
+#team-info h2 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 65px;
+    margin: 25px;
+    padding-top: 65px;
+}
+
+#other-details h2 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 65px;
+    color: white;
+}
+
+#other-details h3 {
+    font-family: "Inria Serif", serif;
+    font-size: 40px;
+    color: white;
+}
+
+#other-details h4 {
+    font-family: "Inria Serif", serif;
+    font-size: 30px;
+    color: white;
+}
+
+#other-details a {
+    background-color: rgb(73, 221, 110);
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    border: 2px solid rgb(11, 56, 11);
+    color: white;
+    transition:
+        background-color 0.25s;
+}
+
+#other-details a:hover {
+    background-color:rgb(11, 56, 11);
+}
+
+@media screen and (max-width: 1016px) and (min-width: 701px) {
+    #single-column-layout #poster {
+        flex-wrap: wrap;
+    }
+}
+
+/* @media screen and (max-width: 700px) {
+
+} */
