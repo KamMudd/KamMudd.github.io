@@ -243,13 +243,20 @@ body {
         align-items: center;
     }
 
+    #layout #hero #hero-content {
+        position: absolute;
+        bottom: 25%;
+        right: 15%;
+        margin: 25px;
+    }
+
     #menu-content #spicy {
         flex-direction: column;
         align-items: center;
     }
 
     #spicy img {
-        height: 45vh;
+        height: 40vh;
     }
 
     #spicy-content {
