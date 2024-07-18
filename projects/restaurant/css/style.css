@@ -76,6 +76,7 @@ body {
     position: absolute;
     bottom: 20%;
     right: 20%;
+    text-align: center;
 }
 
 #hero h2 {
@@ -183,7 +184,7 @@ body {
 #menu-content #dishes {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     margin-top: 30px;
 }
 
@@ -247,7 +248,15 @@ body {
         position: absolute;
         bottom: 25%;
         right: 15%;
-        margin: 25px;
+        margin: 5px;
+    }
+
+    #hero h2 {
+        font-size: 70pt;
+    }
+    
+    #hero h3 {
+        font-size: 25pt;
     }
 
     /* #title {
@@ -263,8 +272,12 @@ body {
         align-items: center;
     }
 
+    /* #menu-content #image-container {
+        width: 200px;
+    } */
+
     #spicy img {
-        height: 40vh;
+        height: 45vw;
         margin-right: none;
     }
 
