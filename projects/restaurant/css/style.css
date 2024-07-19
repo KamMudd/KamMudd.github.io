@@ -73,9 +73,12 @@ body {
 }
 
 #layout #hero #hero-content {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    /* position: absolute;
     bottom: 20%;
-    right: 20%;
+    right: 20%; */
     text-align: center;
 }
 
@@ -100,7 +103,7 @@ body {
     background-color: #8F1A21;
     padding: 20px;
     margin-top: 5px;
-    margin-right: 35px;
+    /* margin-right: 35px; */
     border-radius: 25px;
     transition: 
         background-color 0.25s;
@@ -190,6 +193,8 @@ body {
 
 #menu-content #dishes .cards {
     margin-right: 25px;
+    flex: 1;
+    /* padding-right: 13px; */
     /* object-fit: cover; */
 }
 
@@ -200,15 +205,26 @@ body {
 }
 
 #menu-content #dishes .cards h3 {
-    font-size: 24px;
+    font-size: 23px;
     font-family: Caladea;
 }
 
 #menu-content #dishes .cards p {
-    font-size: 29px;
+    font-size: 23px;
     font-weight: bold;
     font-family: Caladea;
 }
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-by-side span {
+    padding-right: 5px;
+}
+
 
 @media screen and (max-width: 868px) and (min-width: 683px) {
     #navbar-bottom .content-column {
